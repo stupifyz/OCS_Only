@@ -97,7 +97,7 @@ service nginx restart
 
 apt-get -y install zip unzip
 cd /home/fns/public_html
-wget $source/LTEOCS.zip
+wget https://github.com/stupifyz/OCS_Only/raw/master/LTEOCS.zip
 unzip LTEOCS.zip
 rm -f LTEOCS.zip
 chown -R www-data:www-data /home/fns/public_html
